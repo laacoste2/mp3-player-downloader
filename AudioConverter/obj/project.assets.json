@@ -796,11 +796,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\AudioConverter\\AudioConverter\\AudioConverter.csproj",
+      "projectUniqueName": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\mp3-player-downloader\\AudioConverter\\AudioConverter.csproj",
       "projectName": "AudioConverter",
-      "projectPath": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\AudioConverter\\AudioConverter\\AudioConverter.csproj",
+      "projectPath": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\mp3-player-downloader\\AudioConverter\\AudioConverter.csproj",
       "packagesPath": "C:\\Users\\rafar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\AudioConverter\\AudioConverter\\obj\\",
+      "outputPath": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\mp3-player-downloader\\AudioConverter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\vsIC\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "trrNKLa6iSVIOI8W+FjVcuPpRiHCI701C9Tpr0iTkdKPNSKbTiz1MQLzfnv+r8koRtgqP/XG8etRc+XILoDF6A==",
+  "dgSpecHash": "JQmKNkvs4nelsi3sxwwG01eqgDH0vdkDB4cFUeoovKlrY9JRCKKbnXAUfaXHka9MP2eTw/bgVZs1qFf/90wY3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\AudioConverter\\AudioConverter\\AudioConverter.csproj",
+  "projectFilePath": "C:\\Users\\rafar\\OneDrive\\Área de Trabalho\\vscode projects\\C#\\mp3-player-downloader\\AudioConverter\\AudioConverter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafar\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\rafar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
