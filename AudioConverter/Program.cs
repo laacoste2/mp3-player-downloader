@@ -55,6 +55,8 @@ namespace AudioConverter
 
                     Music.PlayMusic(musicToPlay);
 
+
+
                     Console.Clear();
                 }
             }

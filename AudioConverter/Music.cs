@@ -70,16 +70,47 @@ namespace AudioConverter
                 using (var audioFile = new AudioFileReader(musicToPlay))
                 {
                     audioOutput.Init(audioFile);
-                    audioOutput.Play();
 
-                    Console.WriteLine("Musica Tocando...");
-                    while (audioOutput.PlaybackState == PlaybackState.Playing)
+                    bool repeat = true;
+                    while(repeat)
                     {
-                        Console.WriteLine(".");
-                        Thread.Sleep(1000);
+                        audioOutput.Play();
+
+                        Console.WriteLine("Musica Tocando...");
+                        Console.WriteLine("P para pausar | E para voltar ao menu");
+                        string pauseOrChooseAnotherMusicInput = Console.ReadLine().ToUpper();
+
+                        if (pauseOrChooseAnotherMusicInput == "P")
+                        {
+                            Console.Clear();
+                            audioOutput.Pause();
+                            Console.WriteLine("Música pausada...");
+                            Console.WriteLine("P para tocar | E para voltar ao menu");
+                            string playOrChooseAnotherMusicInput = Console.ReadLine().ToUpper();
+
+                            if (playOrChooseAnotherMusicInput == "P")
+                            {
+                                Console.Clear();
+                            }
+                            else if(pauseOrChooseAnotherMusicInput == "E")
+                            {
+                                repeat = false;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Opção inválida");
+                            }
+                        }
+                        else if(pauseOrChooseAnotherMusicInput == "E")
+                        {
+                            repeat = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Opção inválida");
+                        }
                     }
-                    Console.WriteLine("A música terminou");
-                    Console.ReadLine();
+                   
                     Console.Clear();
                 }
             }
